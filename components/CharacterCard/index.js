@@ -22,7 +22,7 @@ export default function CharacterCard ({character}) {
                     <li><strong>Species:</strong> {character.species}</li>
                     <li><strong>Type:</strong> {character.type}</li>
                     <li><strong>Gender:</strong> {character.gender}</li>
-                    <li><strong>Origin:</strong> <a target='_blank' href={character.origin.url}>{character.origin.name}</a></li>
+                    <li><strong>Origin:</strong> {character.origin.name}</li>
                 </ul>
              </div>
 
