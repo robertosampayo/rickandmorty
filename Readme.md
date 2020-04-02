@@ -2,7 +2,7 @@
 
 App de Rick y Morty con Next.js
 
-![Captura de la App](./.readne-static/captura.png)
+![Captura de la App](./archivos/rickandmortyMain.PNG)
 
 ## ¿Cómo funciona?
 
