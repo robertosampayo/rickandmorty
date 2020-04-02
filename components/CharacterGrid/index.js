@@ -137,6 +137,7 @@ export default function CharacterGrid ({query, res, err}) {
                     z-index: 999999;
                     background: #000;
                     overflow-y: auto;
+
                 }
 
                 .modal .close{

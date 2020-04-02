@@ -43,13 +43,19 @@ export const Layout = ({title, children}) => {
 
             <style jsx global>{`
                 body {
-                    margin: 0;
+                    max-width: 500px;
+                    margin: 0 auto;
                     font-family: system-ui;
                     background: #201f1d;
 
                 }
                 p, h1, h2, a, li { color: #fff; }
                 strong { color: #97ce4c}
+
+                .modal{
+                    margin: 0 auto;
+                    max-width: 500px;
+                }
 
                 /* Make clicks pass-through */
                 #nprogress {

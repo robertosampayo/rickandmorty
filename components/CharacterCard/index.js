@@ -14,7 +14,7 @@ export default function CharacterCard ({character}) {
 
             <div className='character'>
                 <h1>{ character.name }</h1>
-                <img src={character.image} alt={character.name} />
+                <img src={character.image} alt={character.name} prefetch />
              </div>
              <div className='info'>
                 <ul>
